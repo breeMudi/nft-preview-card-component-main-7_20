@@ -1,4 +1,33 @@
 * {
     margin: 0;
     padding: 0px;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2f415b ;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+figure img {
+    max-width: 335px;
+    /* min-width: 200px; */
+}
+
+.days-left, .note, .first {
+    color: #8bacda;
+}
+
+.second, .heading {
+    color: #ffffff;
+}
+
+.eth-price {
+    color: #00fff7;
 }
