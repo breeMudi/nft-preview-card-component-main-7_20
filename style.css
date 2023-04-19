@@ -7,7 +7,7 @@
 }
 
 body {
-    padding: 20px;
+    /* padding: px; */
     background-color: #0d192b;
     font-weight: 300;
 }
@@ -23,12 +23,12 @@ body {
 }
 
 figure img {
-    max-width: 275px;
+    max-width: 295px;
     border-radius: 10px;
     /* min-width: 200px; */
 }
 
-.days-left, .note, .first {
+.days-left, .quote, .first {
     color: #8bacda;
 }
 
@@ -47,8 +47,8 @@ figure img {
     border-radius: 50%;
 }
 
-.heading, .note, .wrapper, .creator{
-    padding-top: 15px;
+.heading, .wrapper, .creator, .quote{
+    padding-top: 20px;
     font-size: 18px;
 }
 
@@ -65,4 +65,5 @@ figure img {
 .creator {
     display: flex;
     text-align: center;
+    gap: 20px;
 }
