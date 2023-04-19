@@ -57,6 +57,12 @@ figure img {
     font-size: 1.2rem;
 }
 .wrapper {
-    font-weight: 400;
+    font-weight: 400;  
+    display: flex;
+    justify-content: space-between; 
+}
 
+.creator {
+    display: flex;
+    text-align: center;
 }
