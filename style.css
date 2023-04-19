@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0px;
     font-size: 18px;
+    /* font-weight: 300; */
     font-family: 'Outfit', sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: #0d192b;
+    font-weight: 300;
 }
 
 .container {
@@ -10,13 +17,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #2f415b ;
+    background-color: #14253d  ;
     border-radius: 20px;
-    padding: 20px;
+    padding: 25px;
 }
 
 figure img {
-    max-width: 335px;
+    max-width: 275px;
+    border-radius: 10px;
     /* min-width: 200px; */
 }
 
@@ -30,4 +38,25 @@ figure img {
 
 .eth-price {
     color: #00fff7;
+}
+
+.creator img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.heading, .note, .wrapper, .creator{
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.wrapper {
+    font-weight: 400;
+
 }
