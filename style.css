@@ -1,41 +1,37 @@
 * {
     margin: 0;
     padding: 0px;
-    font-size: 18px;
-    /* font-weight: 300; */
+    font-size: 16px;
     font-family: 'Outfit', sans-serif;
 }
 
 body {
-    /* padding: px; */
+    padding: 25px;
     background-color: #0d192b;
     font-weight: 300;
 }
 
 .container {
+    /* position: fixed; */
+    min-width: 275px;
+    background-color: #14253d  ;
+    border-radius: 20px;
+    padding: 25px;
+    margin: auto;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #14253d  ;
-    border-radius: 20px;
-    padding: 25px;
 }
 
-/* figure img { */
-    /* max-width: 285px; */
-    /* border-radius: 10px; */
-    /* min-width: 200px; */
-/* } */
-
-.equil-img {
+.equil-img{
     background-image: url(images/image-equilibrium.jpg);
-    /* width: 200px; */
-    min-width: fit-content;
-    min-height: 205px;
-    /* width: fit-content; */
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 275px;
+    border-radius: 10px;
 }
 
 .days-left, .quote, .first {
@@ -59,12 +55,11 @@ body {
 
 .heading, .wrapper, .creator, .quote{
     padding-top: 20px;
-    font-size: 18px;
 }
 
 .heading {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .wrapper {
     font-weight: 400;  
@@ -74,8 +69,26 @@ body {
     border-bottom: 1px solid #2f415b;
 }
 
+.wrapper img {
+    padding-right: 3px;
+}
+
+.wrapper p {
+    display: flex;
+    text-align: center;
+}
+
 .creator {
     display: flex;
     text-align: center;
-    gap: 20px;
+    gap: 15px;
+}
+
+@media (min-width: 415px){
+    .quote {
+        color: red;
+    }
+    .container {
+        min-width: 275px;
+    }
 }
