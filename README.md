@@ -17,8 +17,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![The desktop view of the nft preview card component](./desktop.jpg)
-<!-- ![](.desktop.jpg)![desktop_view](https://user-images.githubusercontent.com/65234249/224862538-59bda0ed-f0b9-41c6-9706-4af1b6f8087b.png) -->
+![The desktop view of the nft preview card component](./desktop.png)
+<!-- ![](.desktop.png)![desktop_view](https://user-images.githubusercontent.com/65234249/224862538-59bda0ed-f0b9-41c6-9706-4af1b6f8087b.png) -->
 
 ### Links
 
