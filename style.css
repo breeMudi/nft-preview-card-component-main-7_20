@@ -70,12 +70,13 @@ body {
 }
 
 .wrapper img {
-    padding-right: 3px;
+    padding-right: 7px;
 }
 
 .wrapper p {
     display: flex;
-    text-align: center;
+    justify-content: center;
+    /* text-align: center; */
 }
 
 .creator {
@@ -85,9 +86,6 @@ body {
 }
 
 @media (min-width: 415px){
-    .quote {
-        color: red;
-    }
     .container {
         min-width: 275px;
     }
